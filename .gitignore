@@ -1,1 +1,8 @@
+# ignore all real data
+data/**
+!data/.gitkeep
+!data/sample/**
 
+# spark junk
+.derby/
+.metastore_db/
